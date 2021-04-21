@@ -28,7 +28,8 @@ hr {
 
 .container{
     width: 100%;
-    max-width: 1200px;
+    max-width: 1230px;
+    padding: 0 15px;
     margin: 0 auto;
 }
 
@@ -1101,8 +1102,84 @@ hr {
     color: #f38181;
 }
 
+@media (max-width: 1230px) {
+
+    /* Intro*/
+    .intro_suptitle {
+        font-size: 48px;
+    }
+
+    .intro_title {
+        font-size: 120px;
+    }
+    
+}
 
 
+@media (max-width: 984px) {
+
+    /* Intro*/
+    .intro_suptitle {
+        font-size: 38px;
+    }
+
+    .intro_title {
+        font-size: 96px;
+    }
+    
+}
+
+@media (max-width: 740px) {
+
+    /* Intro*/
+    .intro_suptitle {
+        font-size: 28px;
+    }
+
+    .intro_title {
+        font-size: 72px;
+    }
+    
+}
+
+@media (max-width: 555px) {
+
+    /* Intro*/
+    .intro_suptitle {
+        font-size: 21px;
+    }
+
+    .intro_title {
+        font-size: 54px;
+    }
+    
+}
+
+@media (max-width: 420px) {
+
+    /* Intro*/
+    .intro_suptitle {
+        font-size: 16px;
+    }
+
+    .intro_title {
+        font-size: 40px;
+    }
+    
+}
+
+@media (max-width: 320px) {
+
+    /* Intro*/
+    .intro_suptitle {
+        font-size: 10px;
+    }
+
+    .intro_title {
+        font-size: 26px;
+    }
+    
+}
 
 
 
